@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class MergeSort {
 	
+	/*
+	 * Merge Sort: http://en.wikipedia.org/wiki/Merge_sort
+	 */
+	
 	private static void merge(int[] a, int begin, int middle, int end) {
 		int leftsize = middle - begin + 1;
 		int rightsize = end - middle;
